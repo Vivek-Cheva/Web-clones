@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filpkart</title>
+    <style>
+        .hbar {
+            background-color: black;
+            border-radius: 46px;
+            height: 40px;
+            width: 748px;
+            margin: auto;
+
+        }
+
+        .hbar ul {
+            overflow: auto;
+        }
+
+        .hbar li {
+            float: left;
+            color: white;
+            list-style: none;
+            padding: 11px 20px;
+        }
+
+        .hbar a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+
+        }
+
+        .hbar li:hover {
+           
+            color: black;
+            background-color: rgba(255, 255, 255, 0.5);
+            font-weight: bold;
+
+            /* border-radius: 5px; */
+        }
+
+        .inp {
+
+            float: right;
+            margin: 9px 24px;
+            width: 137px;
+            border: 2px solid black;
+            border-radius: 9px;
+
+        }
+
+        .box {
+
+            /* border:3px solid black; */
+            width: 150px;
+            height: 150px;
+            margin: -25px;
+            background-color: bisque;
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+
+
+        }
+
+        .hcir {
+            display: flex;
+            text-align: center;
+            margin-top: 40px;
+            justify-content: center;
+        }
+
+        .hcir span {
+            float: left;
+            margin: 55px 61px 57px 45px;
+        }
+
+        #box1 {
+            background-color: rgb(179, 248, 224);
+
+
+        }
+
+        #box2 {
+            background-color: rgb(119, 253, 206);
+        }
+
+        #box3 {
+            background-color: rgb(68, 248, 185);
+        }
+
+        #box4 {
+            background-color: rgb(4, 249, 163);
+        }
+
+        .check {
+            background-color: antiquewhite;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hbar">
+        <ul>
+            <li><a href="*">Home</a></li>
+            <li><a href="*">About</a></li>
+            <li><a href="*">services</a></li>
+            <li><a href="*">Contact us</a></li>
+            <div class="searchbar">
+                <i class="bi bi-search"></i>
+                <input type="search" class="inp" placeholder="&#128270; search">
+            </div>
+        </ul>
+    </div>
+    <div class="hcir">
+        <div class="box" id="box1"><span>Home</span></div>
+        <div class="box" id="box2"><span>About</span></div>
+        <div class="box" id="box3"><span>Services</span></div>
+        <div class="box" id="box4"><span>Contact</span></div>
+    </div>
+    <div class="check">hello</div>
+</body>
+
+</html>
